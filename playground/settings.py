@@ -36,11 +36,11 @@ ALLOWED_HOSTS = []
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": os.environ.get("DATABASE_NAME", "django_playground"),
-        "USER": os.environ.get("DATABASE_USER", "postgres"),
-        "PASSWORD": os.environ.get("DATABASE_PASSWORD"),
-        "HOST": os.environ.get("DATABASE_HOST", "localhost"),
-        "PORT": int(os.environ.get("DATABASE_PORT", "54321")),
+        "NAME": "lrcx",
+        "USER": "andreaoliver",
+        "PASSWORD": "oZwJIYiWyzdTxUmgIvdA",
+        "HOST": "clients-data-project.cxh9gppcb5rb.us-west-2.rds.amazonaws.com",
+        "PORT": "5432",
         "CONN_MAX_AGE": None,
     }
 }
