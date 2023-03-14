@@ -42,8 +42,18 @@ DATABASES = {
         "HOST": "clients-data-project.cxh9gppcb5rb.us-west-2.rds.amazonaws.com",
         "PORT": "5432",
         "CONN_MAX_AGE": None,
+    },
+    "data": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "POSTGRES_USER": "tracy10",
+        "POSTGRES_PASSWORD": "xZgCyhqhiTYudWvczXQO",
+        "POSTGRES_DATABASE_NAME": "pdd",
+        "POSTGRES_HOST": "clients-data-project.cxh9gppcb5rb.us-west-2.rds.amazonaws.com",
+        "POSTGRES_PORT": "5432",
+        "CONN_MAX_AGE": None,
     }
 }
+
 
 
 # Application definition
